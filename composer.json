@@ -1,23 +1,23 @@
 {
-    "name": "SDIS62/:package_name",
+    "name": "SDIS62/core-common",
 
-    "description": ":package_description",
+    "description": "PSR4 package regroupant des fonctionnalités communes aux packages de type core",
 
     "keywords": [
         "sdis62",
-        ":package_name"
+        "core-common"
     ],
 
-    "homepage": "https://github.com/SDIS62/:package_name",
+    "homepage": "https://github.com/SDIS62/core-common",
 
     "license": "CeCILL-B",
 
     "authors": [
         {
             "role": "Developer",
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website"
+            "name": "Kevin DUBUC",
+            "email": "kdubuc@sdis62.fr",
+            "homepage": "http://kevindubuc.fr"
         }
     ],
 
@@ -32,13 +32,13 @@
 
     "autoload": {
         "psr-4": {
-            "SDIS62\\Skeleton\\": "src/"
+            "SDIS62\\Core\\Common\\": "src/"
         }
     },
 
     "autoload-dev": {
         "psr-4": {
-            "SDIS62\\Skeleton\\Test\\": "tests/"
+            "SDIS62\\Core\\Common\\Test\\": "tests/"
         }
     }
 }
